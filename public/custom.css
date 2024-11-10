@@ -1,0 +1,18 @@
+
+.item-container__image {
+ height: 15rem;
+}
+
+.card-title {
+  margin-top: -2.5rem
+}
+
+.card {
+  width: 30% !important;
+}
+
+.col-md-8 {
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}

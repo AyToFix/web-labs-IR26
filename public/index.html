@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Printer Manager</title>
+    <link rel="stylesheet" href="/custom.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" />
+</head>
+<body class="bg-light">
+    <header class="bg-dark text-white p-3 mb-4">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">Printer Manager</a>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="./index.html">Home</a>
+                    <a class="nav-item nav-link" href="./create.html">Create Printer</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container p-3">
+        <div class="row mb-3">
+            <h1 class="text-center">Printer Manager</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mt-2">
+                <form id="add_form" class="bg-light">
+                    <div class="mb-3">
+                        <label class="form-label h6">Sorting Printers</label> 
+                        <select id="sort_select" class="form-select mt-2">
+                            <option value="name">Sort by Name</option>
+                            <option value="price">Sort by Price</option>
+                        </select>
+                    </div>
+                    
+                    <div class="mt-4 mb-3">
+                        <label for="search_input" class="form-label h6 mt-2">Find Printer Model</label>
+                        <input type="text" class="form-control mt-2" id="search_input" placeholder="Enter printer name" />
+                        <button id="find_button" class="btn btn-primary mt-4">Find</button>
+                        <button id="cancel_button" class="btn btn-danger mt-4">Cancel</button>                    
+                    </div>
+                </form>
+                <div class="mt-5">
+                    <h4 class="mb-3">Total Price</h4>
+                    <button id="total_button" type="button" class="btn btn-info mt-0">Calculate Total Price</button>
+                    <p id="total_price_display"></p>
+                </div>
+            </div>
+
+            <ul id="items_container" class="col-md-7 mt-3 mt-md-2 mx-auto">
+                <button id="edit_button" class="btn btn-primary mt-2">Edit</button>
+                <button id="delete_button" class="btn btn-danger mt-2">Remove</button>
+            </ul>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

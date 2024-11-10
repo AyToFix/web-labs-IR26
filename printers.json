@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1730079624049",
+    "name": "Darnycia5000",
+    "speed": "100",
+    "price": 20000,
+    "description": "Cetramol"
+  },
+  {
+    "id": "1730373265593",
+    "name": "CazitenJET",
+    "speed": "200",
+    "price": 5000,
+    "description": "Hryvnia"
+  },
+  {
+    "id": "1730457178284",
+    "name": "Antros8000",
+    "speed": "5555",
+    "price": 10000,
+    "description": "Тестик"
+  }
+]
