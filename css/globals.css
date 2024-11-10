@@ -1,0 +1,50 @@
+body {
+    background: #fff;
+    font-family: 'Mulish', sans-serif;
+    color: #505f98;
+    margin: 0;
+  }
+
+a {
+    text-decoration: none;
+    color: #1F1534;
+}
+  
+h1, h2, h3, h4, h5 {
+    color: black;
+}
+  
+.main-container {
+    width: 1252px; 
+    height: 2800px; 
+    /*background-color: gray;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+    .main-container {
+        width: 100%;
+        padding: 0px;
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
+    .main-container {
+        margin: 0 auto;
+    }
+    body {
+        padding: 0 65px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-container {
+        width: 100%;
+        padding: 0px;
+        height: 3100px;
+    }
+}
