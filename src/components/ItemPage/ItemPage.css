@@ -1,0 +1,76 @@
+.item-page {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.item-page img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.item-page h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.item-page p {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.details {
+  font-size: 1.6em;
+  font-weight: 900;
+  color: #316eaf; 
+}
+
+.countable-field {
+  margin: 20px 0;
+}
+
+.countable-field button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.countable-field button:hover {
+  background-color: #555;
+}
+
+.selectable-field {
+  margin: 20px 0;
+}
+
+.selectable-field select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1.2em;
+  appearance: none;
+  background-color: #f8f8f8;
+}
+
+.item-page button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.item-page button:hover {
+  background-color: #555;
+}
+

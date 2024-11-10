@@ -1,0 +1,32 @@
+.printer-hero {
+    width: 35rem;
+    margin-top: 3rem;
+  }
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content:center;
+  }
+  
+  .hero img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hero h2 {
+    font-size: 2em;
+    margin-left: 5rem;
+    margin-top: 6rem;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-top: 11rem;
+    margin-left: -16rem;
+    width: 45rem;
+    color:#333;
+    font-weight: 500;
+  }
