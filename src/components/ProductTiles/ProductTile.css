@@ -1,0 +1,105 @@
+.product-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 5rem;
+    background-color: #f0f0f0;
+  }
+  
+  .product-tiles .tile {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    width: 29%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .product-tiles .tile:hover {
+    transform: scale(1.05);
+  }
+  
+  .product-tiles .tile h3 {
+    margin-top: -0.5rem;
+    font-size: 1.2rem;
+    height: 2rem;
+  }
+
+  .product-tiles .tile h4 {
+    margin-top: -1rem;
+    font-size: 1.2rem;
+    height: 2rem;
+  }
+
+  .product-tiles .tile h5 {
+    margin-top: 2.2rem;
+    font-size: 1.2rem;
+    height: 2rem;
+  }
+  
+  .product-tiles .tile p {
+    color: #555;
+    margin-top: 0rem;
+  }
+  
+  .product-tiles button {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-tiles button:hover {
+    background-color: #555;
+  }
+
+  .printer-pr1 {
+    width: 22.5rem;
+    margin-top: -1.5rem;
+    margin-left: 2.7rem;
+  }
+  
+  .printer-pr2 {
+    width: 25rem;
+    margin-left: 1.5rem;
+  }
+  
+  .printer-pr3 {
+    margin-top: 1.5rem;
+    width: 21rem;
+    margin-left: 3.5rem;
+  }
+
+  .additional-content {
+    margin-top: 20px;
+    padding: 20px;
+    width: 90rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .additional-content img {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .additional-content h3 {
+    margin-top: 0;
+  }
+  
+  .additional-content p {
+    color: #555;
+  }
