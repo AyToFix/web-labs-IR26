@@ -1,0 +1,45 @@
+.cart-page {
+  padding: 20px;
+}
+
+.cart-page ul {
+  list-style-type: none;
+}
+
+.cart-page li {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  font-weight: 500;
+}
+
+.cart-item-image {
+  width: 400px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.cart-page button {
+  margin-left: 10px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  font-weight: 700;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.cart-page button:hover {
+  background-color: #a30000;
+}
+
+.cart-page h2 {
+  margin-top: 20px;
+}
+.p {
+  font-weight: 500;
+  font-size: 2rem;
+  color:rgb(82, 82, 82);
+  font-style: italic;
+}
